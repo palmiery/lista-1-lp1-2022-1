@@ -9,7 +9,7 @@ int main(){
     Ponto sd;
     Ponto p;
 
-	while(){
+	while(1){
 		cout << "Digite as coordenadas do Ponto IE: " << endl;
 		cin >> ie.x >> ie.y;
 
