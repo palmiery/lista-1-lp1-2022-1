@@ -8,7 +8,7 @@ int pt_in_rect (const Ponto &ie, const Ponto &sd, const Ponto &p){
 
     Ponto x, y;
 
-    if((p.x > ie.x && p.x < sd.x) && (p.y > ie.y && p.y < sd.y) || (p.x > sd.x && p.x < ie.x) && (p.y > sd.y && p.y < ie.y)|| (p.x < ie.x && p.x > sd.x) && (p.y > ie.y && p.y < sd.y)){
+    if(((p.x > ie.x && p.x < sd.x) && (p.y > ie.y && p.y < sd.y)) || ((p.x > sd.x && p.x < ie.x) && (p.y > sd.y && p.y < ie.y)) || ((p.x < ie.x && p.x > sd.x) && (p.y > ie.y && p.y < sd.y))){
         cout << "P está dentro do retângulo." << endl;
         return 0;
 
